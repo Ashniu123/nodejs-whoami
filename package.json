@@ -1,0 +1,24 @@
+{
+  "name": "nodejs-whoami",
+  "version": "1.0.0",
+  "description": "Tells about user pc",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ashniu123/nodejs-whoami.git"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "freecodecamp"
+  ],
+  "author": "ashniu123",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ashniu123/nodejs-whoami/issues"
+  },
+  "homepage": "https://github.com/Ashniu123/nodejs-whoami#readme"
+}

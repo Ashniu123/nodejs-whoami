@@ -1,9 +1,10 @@
 {
   "name": "nodejs-whoami",
   "version": "1.0.0",
-  "description": "Tells about user pc",
+  "description": "Tells about user pc freecodecamp",
   "main": "server.js",
   "scripts": {
+     "start":"node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -20,5 +21,11 @@
   "bugs": {
     "url": "https://github.com/Ashniu123/nodejs-whoami/issues"
   },
-  "homepage": "https://github.com/Ashniu123/nodejs-whoami#readme"
+  "homepage": "https://github.com/Ashniu123/nodejs-whoami#readme",
+  "engines": {
+    "node": "6.9.4"
+  },
+  "dependencies": {
+    "express": "^4.15.2"
+  }
 }

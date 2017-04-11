@@ -10,7 +10,7 @@ res.status(200).end(`
 <h2>User stories:</h2>
 <p>I can get the IP address, language and operating system for my browser.</p>
 <p>
-Test run at <a href="/whoami" target="_blank" style="background: #f9f2f4;color: #c7254e">`+req.headers.host+`/whoami</a>
+Run at <a href="/whoami" target="_blank" style="background: #f9f2f4;color: #c7254e">`+req.headers["x-forwarded-proto"]+`://`+req.headers.host+`/whoami</a>
 </p>
 <p>Example output:<br>
 <span style="color: lightcoral;margin: 20px;">{"ipaddress":"199.199.199.53","language":"en-US","software":"X11; Ubuntu; Linux i686; rv:31.0"}</span>

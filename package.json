@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/Ashniu123/nodejs-whoami#readme",
   "engines": {
-    "node": "6.9.4"
+    "node": "6.11.1"
   },
   "dependencies": {
     "express": "^4.15.2"

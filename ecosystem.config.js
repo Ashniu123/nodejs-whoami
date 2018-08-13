@@ -14,10 +14,10 @@ module.exports = {
     production : {
       user : 'ubuntu',
       host : 'ec2-34-230-31-235.compute-1.amazonaws.com',
-      key  : '/home/ubuntu/.ssh/whoami',
+      key  : '/home/ubuntu/.ssh/id_rsa',
       ref  : 'origin/master',
-      repo : 'git@github.com:Ashniu123/nodejs-whoami.git',
-      path : '/home/ubuntu/nodejs-whoami',
+      repo : 'git@whoami:Ashniu123/nodejs-whoami.git',
+      path : '/home/ubuntu/nodejs-whoami-deployed',
       'post-deploy' : 'npm install && pm2 reload ecosystem.config.js --env production'
     }
   }

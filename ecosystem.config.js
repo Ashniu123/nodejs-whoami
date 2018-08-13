@@ -1,7 +1,7 @@
 module.exports = {
   apps : [{
     name      : 'WHOAMI',
-    script    : 'server.js',
+    script    : './server.js',
     env: {
       NODE_ENV: 'development'
     },
@@ -13,7 +13,7 @@ module.exports = {
   deploy : {
     production : {
       user : 'ubuntu',
-      host : '212.83.163.1',
+      host : 'ec2-34-230-31-235.compute-1.amazonaws.com',
       key  : '/home/ubuntu/.ssh/whoami',
       ref  : 'origin/master',
       repo : 'git@github.com:Ashniu123/nodejs-whoami.git',

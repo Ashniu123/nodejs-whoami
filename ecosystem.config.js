@@ -14,7 +14,7 @@ module.exports = {
     production : {
       user : 'ubuntu',
       host : 'ec2-34-230-31-235.compute-1.amazonaws.com',
-      key  : '~/.ssh/whoami.pem',
+      key  : '/home/ubuntu/.ssh/whoami',
       ref  : 'origin/master',
       repo : 'git@github.com:Ashniu123/nodejs-whoami.git',
       path : '/home/ubuntu/nodejs-whoami',
